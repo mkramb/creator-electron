@@ -2,9 +2,9 @@
   "name": "creator-electron",
   "version": "0.1.0",
   "bin": {
-    "electron-creator": "./bin.js"
+    "creator-electron": "./bin.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "creator": "git+https://github.com/mkramb/creator.git"
   }
 }
