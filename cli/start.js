@@ -7,7 +7,7 @@ module.exports = (vorpal, config) => {
     .command('start')
     .description('run project locally')
     .use(start.options)
-    .action(({options}) => {
-      return start.action(config, options)
+    .action(({ options }, callback) => {
+      return start.action(config, options, callback)
     })
 }
