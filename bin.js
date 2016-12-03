@@ -11,5 +11,5 @@ const config = Object.assign(
 require('./cli/start')(vorpal, config)
 
 vorpal
-  .delimiter('creator ❯❯❯')
+  .delimiter('electron-creator ❯❯❯')
   .parse(process.argv)
